@@ -8,7 +8,7 @@
 <body>
     <h1>
         <?php
-        $greeting = "Hello";
+        $greeting = "Hello"; //declare the variables
 
         //  (.) operator is  used for concatenation in php
          echo $greeting . " "."world";
