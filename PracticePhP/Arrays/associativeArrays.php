@@ -35,3 +35,23 @@
     
 </body>
 </html>
+
+
+<?php
+$userDetails = [
+    "name" => "Abc",
+    "age" => 21,
+    "email" => "abc@gmail.com",
+    "state" => "UP"
+];
+
+foreach ($userDetails as $key => $data):
+    echo  $key ." is " . $data;
+    echo "<br>";
+endforeach
+
+
+
+
+
+?>

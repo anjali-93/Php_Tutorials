@@ -34,7 +34,7 @@
     <?php
     foreach($books as $book):  ?>
     <li><?= $book ?></li>  
-    <!-- this is for when u have multiples tags in li -->
+    <!-- this is for when u have multiples tags in li  -->
     <?php endforeach; ?>
 
 
