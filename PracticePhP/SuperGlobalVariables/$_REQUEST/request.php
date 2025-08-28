@@ -7,6 +7,9 @@
 
 foreach($_REQUEST as $key => $value) {
     echo " $key is $value<br>";
+
+    // foreach($_REQUEST as $value) {
+    // echo " $value<br>";
 }
 
 
