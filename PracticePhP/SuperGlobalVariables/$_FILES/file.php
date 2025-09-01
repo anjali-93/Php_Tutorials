@@ -3,7 +3,8 @@
 if (isset($_FILES['UploadFile'])) {
     $file_name = $_FILES['UploadFile']['name'];
     // echo $file_name;
-
+    
+// path where file will be stored
     $upload_path = 'uploads/' . $file_name;
     // echo $upload_path;
 
